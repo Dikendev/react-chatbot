@@ -1,3 +1,46 @@
 .chatgpt-bg {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
 }
+
+.chatgpt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  min-width: 300px;
+  border: 1px solid black;
+  padding: 1rem 4rem 1rem 4rem;
+  row-gap: 1.5rem;
+
+  border-radius: 0.7rem;
+}
+
+.chatgpt-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+
+}
+
+.chatgpt-container input{
+  flex: 2;
+  font-size: 26px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.7rem;
+  outline: none;
+}
+
+.chatgpt-container button{
+  flex: 1;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  border-radius: 0.7rem;
+}
+

@@ -1,9 +1,14 @@
+import React from 'react';
 import './App.css';
-import Chatbot from './component/chatbot/Chatbot';
+
+import { Header,Chatbot } from './component';
 
 function App() {
   return (
-    <Chatbot/>
+    <div className="App">
+      <Header />
+      <Chatbot />
+    </div>
   );
 }
 
