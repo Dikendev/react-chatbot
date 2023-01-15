@@ -10,14 +10,14 @@ function Chatbot() {
     event.preventDefault();
     const  UserInputText = userInput.toLowerCase();
 
-    if (UserInputText == "oi") {
+    if (UserInputText === "oi") {
       setResponse('Em que posso lhe ajudar?');
     } 
     
-    if (UserInputText == "incrivel") {
+    if (UserInputText === "incrivel") {
       setResponse('Realmente é incrivel oque podemos fazer com React');
     } 
-    else if (UserInputText == "data" ) {
+    else if (UserInputText === "data" ) {
         setResponse( ` A data de hoje é : ${new Date().toLocaleDateString()}`);
     } else {
       setResponse("Nao entendi, digite novamente")
